@@ -1,0 +1,6 @@
+git config --global.user.name git config --global.user.name"kamvxii""kamvxii"
+git config --global.user,email"kamilaakynbaeva@mail.ru"
+
+
+
+git status
