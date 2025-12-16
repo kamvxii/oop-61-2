@@ -4,3 +4,7 @@ git config --global.user,email"kamilaakynbaeva@mail.ru"
 
 
 git status
+git merge название вpush етки
+git push origin main
+
+

@@ -1,6 +1,3 @@
-from itertools import product
-
-
 class Product:
     def __init__(self,title,price,quantity):
         self.title=title
