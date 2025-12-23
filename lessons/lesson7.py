@@ -1,6 +1,13 @@
 import sqlite3
 
-db = sqlite3.connect('itproger.db')
+db = sqlite3.connect('users.db')
 c=db.cursor()
-c.execute('''CREATE TABLE student (title text
-)''')
+
+#language=SQL
+c.execute("""
+CREATE TABLE users(
+    name VARCHAR(50),
+    age INTEGER,
+    hobby TEXT
+)
+""")
